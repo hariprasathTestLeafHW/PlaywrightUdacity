@@ -1,32 +1,13 @@
-# Cucumber Playwright Starter
+# Cucumber Playwright Starter-Udacity
+This Test Framework Runs The Test For Udacity Webportal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running E2E tests
 
 Before running tests, ensure that @Playwright/test is installed correctly by running `npm run e2e:install`.
 
-### locally
 
-To run locally, first ensure your application is running using `npm start`.
-
-Once the application is running run the script `npm run e2e:test-local`, to execute your e2e tests locally using Chrome. You can find the local config in `cucumber.js`. The default is to run `headless:false`, which display the browser.
+Then Run the script `npm run e2e:test-local`, to execute your e2e tests locally using Chrome. You can find the local config in `cucumber.js`. The default is to run `headless:false`, which display the browser.
 
 ### CI/CD
 
@@ -34,4 +15,5 @@ To run in a CI pipeline then use the script `npm run e2e:ci`, this is configured
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Make Sure You set up proper Nodejs Versions(latest) and Npm in your Machine before proceeding
+Use Aqua IDE for better Execution
